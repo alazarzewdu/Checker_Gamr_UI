@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Checkers">
         <activity
+            android:name=".american_version"
+            android:exported="false" />
+        <activity
+            android:name=".ethiopian_version"
+            android:exported="false" />
+        <activity
             android:name=".home_screen"
             android:exported="false" />
         <activity

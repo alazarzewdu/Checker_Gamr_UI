@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/checkers_bg"
+    android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/first_column"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/menu_btn_bg"
+            app:srcCompat="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/retry"
+            android:layout_marginTop="25dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/menu_btn_bg"
+            app:srcCompat="@drawable/retry" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/second_column"
+        android:layout_marginLeft="80dp"
+        android:layout_width="470dp"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="10"
+            android:columnCount="10">
+            <!--first row-->
+            <ImageView
+                android:id="@+id/one_one"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/one_two"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/one_three"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/one_four"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/one_five"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/one_six"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/one_seven"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/one_eight"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/one_nine"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/one_ten"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <!--second row-->
+            <ImageView
+                android:id="@+id/two_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/two_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/two_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/two_four"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/two_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/two_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/two_seven"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/two_eight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/two_nine"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/two_ten"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <!--third row-->
+            <ImageView
+                android:id="@+id/three_one"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/three_two"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/three_three"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/three_four"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/three_five"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/three_six"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/three_seven"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/three_eight"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/three_nine"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/three_ten"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <!--fourth row-->
+            <ImageView
+                android:id="@+id/four_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/four_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/four_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/four_four"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/four_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/four_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/four_seven"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/four_eight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/four_nine"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/corona" />
+
+            <ImageView
+                android:id="@+id/four_ten"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <!--middle row one-->
+            <ImageView
+                android:id="@+id/five_one"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/five_two"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/five_three"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/five_four"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/five_five"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/five_six"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/five_seven"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/five_eight"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/five_nine"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/five_ten"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <!--middle row two-->
+            <ImageView
+                android:id="@+id/six_one"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/six_two"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/six_three"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/six_four"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/six_five"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/six_six"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/six_seven"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/six_eight"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/six_nine"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg" />
+
+            <ImageView
+                android:id="@+id/six_ten"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <!--fifth row-->
+            <ImageView
+                android:id="@+id/seven_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/seven_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/seven_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/seven_four"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/seven_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/seven_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/seven_seven"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/seven_eight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/seven_nine"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/seven_ten"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <!--eighth row-->
+            <ImageView
+                android:id="@+id/eight_one"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/eight_two"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/eight_three"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/eight_four"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/eight_five"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/eight_six"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/eight_seven"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/eight_eight"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/eight_nine"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/eight_ten"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <!--ninth row-->
+            <ImageView
+                android:id="@+id/nine_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/nine_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/nine_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/nine_four"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/nine_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/nine_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/nine_seven"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/nine_eight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/nine_nine"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/nine_ten"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <!--tenth row-->
+            <ImageView
+                android:id="@+id/ten_one"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/ten_two"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/ten_three"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/ten_four"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/ten_five"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/ten_six"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/ten_seven"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/ten_eight"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/ten_nine"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/brown_bg"
+                app:srcCompat="@drawable/heineken" />
+
+            <ImageView
+                android:id="@+id/ten_ten"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_bg" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/third_column"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <ImageView
+            android:id="@+id/back"
+            android:clickable="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/menu_btn_bg"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_marginTop="25dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/menu_btn_bg"
+            app:srcCompat="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/hint"
+            android:layout_marginTop="25dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/menu_btn_bg"
+            app:srcCompat="@drawable/hint" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
