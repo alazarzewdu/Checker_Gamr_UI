@@ -17,7 +17,7 @@ public class home_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        ImageButton ethiopia = (ImageButton) findViewById(R.id.eth_btn);
+        ImageButton ethiopia = findViewById(R.id.eth_btn);
 
         ethiopia.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +29,7 @@ public class home_screen extends AppCompatActivity {
 
 
 
-        ImageButton america = (ImageButton) findViewById(R.id.usa);
+        ImageButton america = findViewById(R.id.usa);
 
         america.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +40,7 @@ public class home_screen extends AppCompatActivity {
         });
 
 
-        Button background = (Button) findViewById(R.id.btn1);
+        Button background = findViewById(R.id.btn1);
 
         background.setOnClickListener(new View.OnClickListener() {
             @Override

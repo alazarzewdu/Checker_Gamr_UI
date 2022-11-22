@@ -15,7 +15,7 @@ public class american_version extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_american_version);
 
-        ImageView america = (ImageView) findViewById(R.id.back);
+        ImageView america = findViewById(R.id.back);
 
         america.setOnClickListener(new View.OnClickListener() {
             @Override
