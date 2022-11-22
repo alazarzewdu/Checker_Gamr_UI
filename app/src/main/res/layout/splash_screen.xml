@@ -5,14 +5,18 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash_screen">
 
-    <ProgressBar
+   <RelativeLayout
+       android:layout_marginTop="120dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ProgressBar
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="341dp"
-        tools:layout_editor_absoluteY="248dp">
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:ignore="MissingConstraints">
 
-    </ProgressBar>
+       </ProgressBar>
+   </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
