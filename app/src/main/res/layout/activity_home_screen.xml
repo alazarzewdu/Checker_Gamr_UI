@@ -36,7 +36,9 @@
                     android:adjustViewBounds="true"
                     android:padding="0dp"
                     android:scaleType="centerInside"
-                    android:src="@drawable/brazil"></ImageButton>
+                    android:src="@drawable/brazil">
+
+                </ImageButton>
 
                 <FrameLayout
                     android:layout_marginLeft="17dp"
